@@ -1,0 +1,24 @@
+{
+  "name": "experian-v4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor outputjs/config.js"
+  },
+  "author": "becca",
+  "license": "ISC",
+
+  
+  "devDependencies": {
+    "@types/jasmine": "^3.4.6",
+    "@types/node": "~12.12.6",
+    "jasmine": "3.5.0",
+    "protractor": "~5.4.2",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "ts-node": "8.5.4",
+    "typescript": "~3.6"
+  }
+}

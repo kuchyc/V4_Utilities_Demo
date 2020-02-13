@@ -1,0 +1,26 @@
+{
+    "testurl": "https://test-experian.runpath.com/gas-electricity#/step1",
+    "caturl" : "https://test-experian.runpath.com/gas-electricity#/step1",
+    "currentsupurl": "https://test-experian.runpath.com/gas-electricity#/step2",
+
+    "locators": {
+        
+        "aboutyou": {
+            "postcode": "postcodeInput",
+            "elecTariffType": "label_tariffType_electricity",
+            "dualFuleNo": "label_isDualFuel_no",
+            "economy7No": "label_isEconomy7_no",
+
+            "testdata":{
+
+
+                "postcode":"B6 6HE"
+                
+            }
+        },
+        "currentsupplier": {
+          
+            }
+        }
+    }
+ 
